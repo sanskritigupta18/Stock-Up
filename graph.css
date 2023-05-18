@@ -4,11 +4,21 @@
   padding: 0px;
   margin: 0px;
 }
-
+body{
+  overflow: hidden;
+}
 .imglogo {
   margin-right: 10px;
 }
 /* Graph */
+.containerTotal{
+  display: inline;
+  width: 100px;
+  position: relative;
+  top: 4em;
+  left: 29em;
+  font-size: 21px;
+}
 .container2{
     display: flex;
     position: relative;
