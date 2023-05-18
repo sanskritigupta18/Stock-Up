@@ -58,7 +58,7 @@
 .instagram {
   float: right;
   position: relative;
-  top: 17em;
+  top: 8em;
   right: 6em;
   height: 6em;
   width: 6em;
@@ -66,7 +66,7 @@
 }
 .linkedin {
   position: relative;
-  top: 17em;
+  top: 8em;
   left: 6em;
   height: 6em;
   width: 6em;
@@ -82,3 +82,32 @@
     height: 70px;
 }
 /* Card Container ended */
+.name{
+  position: relative;
+  top: 4em;
+  left: 10em;
+  font-size: 17px;
+  font-weight: bold;
+}
+.imageContainer {
+  position: relative;
+  left: 11em;
+  overflow: hidden;
+  top: 40px;
+  border-radius: 500px;
+  background-color: aqua;
+  /* background-image: url('WhatsApp\ Image\ 2023-05-12\ at\ 22.58.44.jpeg'); */
+  height: 7em;
+
+  /* position: relative;
+      top:100px;
+      left: 100px; */
+  width: 7em;
+  z-index: 1;
+}
+.imageContainer img {
+  position: relative;
+  top: -3.2em;
+  left: -0.6em;
+  height: 12em;
+}
