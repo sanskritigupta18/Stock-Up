@@ -1,0 +1,84 @@
+@import url("https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible:wght@400;700&display=swap");
+* {
+  font-family: "Atkinson Hyperlegible", sans-serif;
+}
+/* Nav bar */
+.imglogo {
+  margin-right: 10px;
+}
+/* Nav bar */
+.container {
+  position: relative;
+  top: 5em;
+  width: 5em;
+  height: 12em;
+}
+/* Text title */
+.textTitle {
+  display: inline;
+  position: relative;
+  left: 35%;
+  font-weight: bold;
+  font-size: 29px;
+}
+.textDescription {
+  position: relative;
+  top: 10px;
+  font-size: 15px;
+  text-align: center;
+}
+/* Text title ended */
+
+/* Card Container */
+.cardContainer {
+  position: relative;
+  display: flex;
+  top: 5em;
+  height: 25em;
+}
+.container1 {
+  display: flex;
+}
+.containerLeft {
+  position: relative;
+  left: 12em;
+  width: 29em;
+  height: 25em;
+  box-shadow: 2px 2px black;
+  border: 2px solid black;
+}
+.containerRight {
+  position: relative;
+  left: 27em;
+  width: 29em;
+  height: 25em;
+  box-shadow: 2px 2px black;
+  border: 2px solid black;
+}
+.instagram {
+  float: right;
+  position: relative;
+  top: 17em;
+  right: 6em;
+  height: 6em;
+  width: 6em;
+  border-radius: 50%;
+}
+.linkedin {
+  position: relative;
+  top: 17em;
+  left: 6em;
+  height: 6em;
+  width: 6em;
+  border-radius: 50%;
+}
+.image{
+    height: 95px;
+}
+.image1{
+    position: relative;
+    top: 14px;
+    left: 12px;
+    height: 70px;
+}
+/* Card Container ended */

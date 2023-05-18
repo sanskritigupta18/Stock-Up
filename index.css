@@ -1,0 +1,242 @@
+@import url("https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible:wght@400;700&display=swap");
+* {
+  font-family: "Atkinson Hyperlegible", sans-serif;
+}
+.imglogo {
+  margin-right: 10px;
+}
+/* #sliderimg{
+      background-size: cover;
+    } */
+.slider img {
+  /* display: flex;
+      width: 100vw !important;
+      height: 100vh; */
+  width: 1529px;
+  height: 291px;
+}
+#carouselExampleAutoplaying {
+
+}
+.loginbtn {
+  background-color: rgba(240, 248, 255, 0);
+  border-radius: 25px;
+  width: 90px;
+  border: none;
+  box-shadow: 2px 2px rgba(0, 0, 0, 0.469);
+}
+.loginbtn a {
+  text-decoration: none;
+}
+/* .loginbtn :hover { */
+  /* background-color: rgba(0, 0, 0, 0.827); */
+/* } */
+.text {
+  padding: 25px;
+  display: flex;
+  justify-content: center;
+}
+.text h1{
+    /* font-size: 2em; */
+}
+.container{
+    padding-top: 25px;
+}
+.container img{
+    height: 450px;
+}
+.image1{
+}
+.container1{
+  width: 400px;
+  background-color: aqua;
+}
+
+/* Why / uses */
+.advantageContainer{
+  display: grid;
+  padding: 20px 40px;
+  grid-template-columns: auto auto auto;
+  width: 97%;
+  height: 28em;
+  margin: 25px;
+  overflow: hidden;
+}
+.image{
+  overflow: hidden;
+
+  justify-content: center;
+  border-radius: 25px;
+  padding: 10px;
+  width: 28em;
+  height: 12em;
+  /* box-shadow: 2px 2px black; */
+  /* border: 2px solid black; */
+}
+.ImageUses{
+  position: relative;
+  padding-bottom: 10px;
+  left: 10px;
+}
+.title{
+  font-weight: bold;
+  padding: 0px;
+}
+.introPara{
+  position: relative;
+  top: -15px;
+}
+/* Uses Ended */
+
+/* Who is it for started */
+.whoisitContainer{
+  width: 93%;
+  margin-left: 5em;
+  display: grid;
+  grid-template-columns: auto auto;
+}
+.firstNote{
+  width: 40%;
+  height: 20%;
+}
+.title{
+  font-size: 17px;
+}
+.headingTitle{
+  display: inline;
+  font-size: 29px;
+  font-weight: 400;
+  position: relative;
+  left: 2.6em;
+}
+/* Who is it for ended */
+
+/* Benefits Started */
+.containerBenefits{
+  display: grid;
+  grid-template-columns: auto auto auto;
+}
+.benefits
+{
+  margin-left: 4.5em;
+  margin-top: 4em;
+}
+.title{
+  margin-top: 10px;
+}
+/* Benefits Ended */
+/* Advantage */
+.headingTitleAdvantage{
+  display: inline;
+  font-size: 29px;
+  font-weight: 400;
+  position: relative;
+  top: 1em;
+  left: 2.6em;
+}
+/* Advantage */
+/* Benefits */
+.headingTitleBenefits{
+  display: inline;
+  font-size: 29px;
+  font-weight: 400;
+  position: relative;
+  top: 1.5em;
+  left: 2.6em;
+}
+/* Benefits */
+hr{
+  position: relative;
+  box-shadow: 1px black;
+  left: 4em;
+  width: 93%;
+  color: rgb(42, 42, 42);
+}
+
+/* Nav bar hover */
+.navbar-text :hover
+{
+  background-color: rgba(128, 128, 128, 0.58);
+}
+/* Nav bar hover */
+/* Footer */
+.footerContainer{
+  /* border: 2px solid black; */
+  /* border-radius: 25px; */
+  position: relative;
+  display: grid;
+  margin: 2em;
+  grid-template-columns: auto auto auto;
+  left: 4em;
+  width: 93%; 
+  height: 15em;
+}
+.footerContainer ul{
+  list-style: none;
+  position: relative;
+  left: -30px;
+  font-size: 19px;
+}
+.footerContainer a{
+  text-decoration: none;
+  color: black;
+}
+.leftSide{
+  position: relative;
+  top: 6.5em;
+  left: 4em;
+}
+.leftSide p{
+  font-size: 21px;
+}
+.rightSide{
+  position: relative;
+  top: 2em;
+}
+.rightSide2{
+  position: relative;
+  top: 2em;
+}
+.rightSide2 p{
+  font-size: 29px;
+}
+.rightSide p{
+  font-size: 29px;
+}
+.share{
+  display: grid;
+  grid-template-columns: auto auto auto;
+  position: relative;
+  top: 35px;
+  left: 31em;
+  /* background-color: black; */
+}
+.facebook{
+  position: relative;
+  left: 100px;
+  width: 100px;
+  height: 100px;
+  /* background-image: url('https://www.facebook.com/images/fb_icon_325x325.png'); */
+}
+.facebook img{
+  height: 50px;
+}
+.instagram{
+  position: relative;
+  left: -20px;
+  width: 100px;
+  height: 100px;
+}
+.instagram img{
+  height: 50px;
+}
+.linkedin{
+  position: relative;
+  left: -140px;
+  width: 100px;
+  height: 100px;
+}
+.linkedin img{
+  height: 50px;
+}
+/* Footer ended */

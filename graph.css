@@ -1,0 +1,111 @@
+@import url("https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible:wght@400;700&display=swap");
+* {
+  font-family: "Atkinson Hyperlegible", sans-serif;
+  padding: 0px;
+  margin: 0px;
+}
+
+.imglogo {
+  margin-right: 10px;
+}
+/* Graph */
+.container2{
+    display: flex;
+    position: relative;
+    left: 20em;
+    width: 1000px;
+}
+.chart{
+    margin: 170px auto;
+    width: 1000px;
+    height: 500px;
+}
+hr{
+    position: relative;
+    box-shadow: 1px black;
+    left: 4em;
+    width: 93%;
+    color: rgb(42, 42, 42);
+  }
+/* Graph Ended */
+/* Footer */
+.footerContainer{
+    /* border: 2px solid black; */
+    /* border-radius: 25px; */
+    position: relative;
+    display: grid;
+    margin: 2em;
+    grid-template-columns: auto auto auto;
+    left: 4em;
+    width: 93%; 
+    height: 15em;
+  }
+  .footerContainer ul{
+    list-style: none;
+    position: relative;
+    left: -30px;
+    font-size: 19px;
+  }
+  .footerContainer a{
+    text-decoration: none;
+    color: black;
+  }
+  .leftSide{
+    position: relative;
+    top: 6.5em;
+    left: 4em;
+  }
+  .leftSide p{
+    font-size: 21px;
+  }
+  .rightSide{
+    position: relative;
+    top: 2em;
+  }
+  .rightSide2{
+    position: relative;
+    top: 2em;
+  }
+  .rightSide2 p{
+    font-size: 29px;
+  }
+  .rightSide p{
+    font-size: 29px;
+  }
+  .share{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    position: relative;
+    top: 35px;
+    left: 31em;
+    /* background-color: black; */
+  }
+  .facebook{
+    position: relative;
+    left: 100px;
+    width: 100px;
+    height: 100px;
+    /* background-image: url('https://www.facebook.com/images/fb_icon_325x325.png'); */
+  }
+  .facebook img{
+    height: 50px;
+  }
+  .instagram{
+    position: relative;
+    left: -20px;
+    width: 100px;
+    height: 100px;
+  }
+  .instagram img{
+    height: 50px;
+  }
+  .linkedin{
+    position: relative;
+    left: -140px;
+    width: 100px;
+    height: 100px;
+  }
+  .linkedin img{
+    height: 50px;
+  }
+  /* Footer ended */
